@@ -6,6 +6,7 @@ def ShowMenu():
     Menu = [CreateAccount, ShowAllAccounts, UpdateAccount, DeleteAccount, SearchAccount, exit]
 
     while True:
+        print("Hello manasa")
         Choice = int(input("------BANK SYSTEM-------\n"
                            "          Menu\n"
                            "1. Add an account\n"
